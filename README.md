@@ -92,13 +92,19 @@ Semua data cuaca dan pencarian kota diambil secara langsung menggunakan **HTTP G
 
 ## 5. Screenshot Aplikasi
 
-> Letakkan file screenshot ke dalam folder `screenshots/` sesuai nama file pada tabel di bawah ini, lalu commit & push perubahan gambarnya.
+### a. Home / Weather Screen
 
-| Screen | Keterangan | Screenshot |
-| :--- | :--- | :---: |
-| **Home / Weather Screen** | Menampilkan nama kota, suhu saat ini, kondisi cuaca, saran cuaca, dan prakiraan 24 jam | ![Home Weather Screen](screenshots/home_weather_screen.png) |
-| **Home / Weather Screen (Detail)** | Menampilkan prakiraan 7 hari ke depan serta grid metrik (curah hujan, angin, kelembapan, suhu terasa, UV, busur matahari) | ![Home Weather Detail](screenshots/home_weather_detail.png) |
-| **Search / Location Screen** | Pencarian kota via Open-Meteo Geocoding API, daftar lokasi favorit, dan riwayat pencarian | ![Search Location Screen](screenshots/search_location_screen.png) |
+| Tampilan Utama | Prakiraan 7 Hari ke Depan | Detail Metrik & Busur Matahari |
+| :---: | :---: | :---: |
+| <img src="screenshots/homescreen.jpeg" width="240" alt="Home Screen" /> | <img src="screenshots/Weather_7hari_kedepan.jpeg" width="240" alt="Prakiraan 7 Hari" /> | <img src="screenshots/widget_lainnya.jpeg" width="240" alt="Detail Metrik Cuaca" /> |
+| Menampilkan nama kota (*Kota Purwokerto*), suhu saat ini (`25°C`), kondisi (*Mendung*, WMO 3), saran cuaca dinamis, dan prakiraan 24 jam berikutnya | Menampilkan header ringkas saat di-scroll (`Kota Purwokerto 25°`) dan daftar prakiraan cuaca 7 hari lengkap dengan peluang hujan & bar rentang suhu | Menampilkan grid detail **Curah Hujan**, **Angin**, **Kelembapan**, **Suhu Terasa**, **Indeks UV**, serta busur lintasan **Matahari** |
+
+### b. Search / Location Screen
+
+| Pencarian Lokasi via Geocoding API | Riwayat Pencarian & Status Lokasi Aktif |
+| :---: | :---: |
+| <img src="screenshots/cari_lokasi.jpeg" width="240" alt="Cari Lokasi" /> | <img src="screenshots/history.jpeg" width="240" alt="Riwayat Pencarian" /> |
+| Pencarian kota langsung ke Open-Meteo Geocoding API (`jakarta`), dilengkapi tombol favorit | Menampilkan riwayat pencarian tersimpan (`SharedPreferences`), badge lokasi `Aktif`, dan tombol kelola riwayat |
 
 ---
 
